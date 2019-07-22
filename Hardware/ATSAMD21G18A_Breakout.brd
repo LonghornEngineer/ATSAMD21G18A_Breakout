@@ -376,35 +376,6 @@
 </polygon>
 <text x="6.35" y="-1.27" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL06</text>
 </package>
-<package name="TC2030-IDC-NL">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for Tag Connect TC2030-NL style&lt;br&gt;
-&lt;b&gt;MacroFab House Part:&lt;/b&gt; No &lt;br&gt;
-&lt;b&gt;URL:&lt;/b&gt; http://www.tag-connect.com/TC2030-IDC-NL&lt;br&gt;</description>
-<smd name="P$1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<hole x="2.54" y="1.016" drill="0.9906"/>
-<hole x="2.54" y="-1.016" drill="0.9906"/>
-<hole x="-2.54" y="0" drill="0.9906"/>
-<wire x1="3.683" y1="-3.048" x2="-3.683" y2="-3.048" width="0.127" layer="21"/>
-<wire x1="-3.683" y1="-3.048" x2="-4.953" y2="-1.778" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4.953" y1="-1.778" x2="-4.953" y2="1.778" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="1.778" x2="-3.683" y2="3.048" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.683" y1="3.048" x2="3.683" y2="3.048" width="0.127" layer="21"/>
-<wire x1="3.683" y1="3.048" x2="4.953" y2="1.778" width="0.127" layer="21" curve="-90"/>
-<wire x1="4.953" y1="1.778" x2="4.953" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="4.953" y1="-1.778" x2="3.683" y2="-3.048" width="0.127" layer="21" curve="-90"/>
-<text x="-1.27" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL01</text>
-<text x="-1.27" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
-<text x="0" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
-<text x="0" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
-<text x="1.27" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
-<text x="1.27" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
-<text x="-5.715" y="0" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center">&gt;NAME</text>
-</package>
 </packages>
 </library>
 <library name="MF_Switches">
@@ -1132,25 +1103,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="VOLTAGE" value="" x="-8.763" y="-3.429" size="1.778" layer="27" display="off"/>
 <attribute name="WATTAGE" value="" x="-8.763" y="-3.429" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U4" library="MF_IC_Power" package="SOT-23-5" value="MF-REG-SOT235-3.3V-300mA" x="-7.62" y="-8.001" smashed="yes">
-<attribute name="HOUSEPART" value="YES" x="-7.62" y="-8.001" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MF-REG-SOT235-3.3V-300mA" x="-7.62" y="-8.001" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-9.82" y="-6.001" size="1.016" layer="25" font="vector" ratio="16"/>
-<attribute name="POPULATE" value="1" x="-7.62" y="-8.001" size="1.778" layer="27" display="off"/>
-<attribute name="URL" value="https://factory.macrofab.com/part/MF-REG-SOT235-3.3V-300mA" x="-7.62" y="-8.001" size="1.778" layer="27" display="off"/>
-</element>
-<element name="TC1" library="MF_Connectors" package="TC2030-IDC-NL" value="TC2030-IDC-NL" x="-3.937" y="-12.827" smashed="yes">
-<attribute name="HOUSEPART" value="NO" x="-15.748" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="LABEL01" value="VCC" x="-5.207" y="-16.637" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
-<attribute name="LABEL02" value="GND" x="-5.207" y="-9.017" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left"/>
-<attribute name="LABEL03" value="SWDIO" x="-3.937" y="-16.637" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
-<attribute name="LABEL04" value="SWCLK" x="-3.937" y="-9.017" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left"/>
-<attribute name="LABEL05" value="MCU_VDD" x="-2.667" y="-16.637" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left"/>
-<attribute name="LABEL06" value="!RST" x="-2.667" y="-9.017" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left"/>
-<attribute name="MPN" value="TC2030-IDC-NL" x="-15.748" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-9.652" y="-12.827" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center"/>
-<attribute name="POPULATE" value="0" x="-15.748" y="1.27" size="1.778" layer="27" display="off"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC-NL" x="-15.748" y="1.27" size="1.778" layer="27" display="off"/>
+<element name="U4" library="MF_IC_Power" package="SOT-23-5" value="LDK320AM33R" x="-2.54" y="-6.985" smashed="yes">
+<attribute name="HOUSEPART" value="No" x="-2.54" y="-6.985" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LDK320AM33R" x="-2.54" y="-6.985" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-4.74" y="-4.985" size="1.016" layer="25" font="vector" ratio="16"/>
+<attribute name="POPULATE" value="1" x="-2.54" y="-6.985" size="1.778" layer="27" display="off"/>
+<attribute name="URL" value="" x="-2.54" y="-6.985" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U3" library="PP_PowerIC" package="BQ24165_QFN-24" value="BQ24165RGET" x="33.02" y="8.001" smashed="yes" rot="MR0">
 <attribute name="MFG" value="Texas Instruments" x="33.02" y="8.001" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1163,9 +1121,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="7.844" y="12.222" size="0.8128" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="U5" library="PP_DigitalIC" package="DS1340Z_USOP" value="DS1340U-33+T&amp;R" x="-4.953" y="9.271" smashed="yes">
-<attribute name="MPN" value="
-DS1340U-33+T&amp;R
-" x="-4.953" y="9.271" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value=" DS1340U-33+T&amp;R " x="-4.953" y="9.271" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-8.953" y="12.501" size="0.8128" layer="21" font="vector" ratio="16"/>
 </element>
 <element name="BATT1" library="PP_Connectors" package="1074" value="" x="-14.732" y="17.018" smashed="yes">
@@ -1213,18 +1169,15 @@ DS1340U-33+T&amp;R
 <contactref element="J7" pad="A1/B12"/>
 <contactref element="J7" pad="B1/A12"/>
 <contactref element="U4" pad="P$2"/>
-<contactref element="TC1" pad="P$2"/>
-<wire x1="32.004" y1="25.527" x2="37.905" y2="23.96" width="0" layer="19" extent="1-1"/>
-<wire x1="29.464" y1="25.527" x2="32.004" y2="25.527" width="0" layer="19" extent="1-1"/>
-<wire x1="28.194" y1="25.527" x2="29.464" y2="25.527" width="0" layer="19" extent="1-1"/>
-<wire x1="39.116" y1="16.383" x2="37.905" y2="23.96" width="0" layer="19" extent="1-1"/>
-<wire x1="39.92" y1="13.081" x2="39.116" y2="16.383" width="0" layer="19" extent="1-1"/>
-<wire x1="42.657" y1="12.14" x2="39.92" y2="13.081" width="0" layer="19" extent="1-1"/>
+<wire x1="44.196" y1="16.383" x2="49.276" y2="16.383" width="0" layer="19" extent="1-1"/>
+<wire x1="42.657" y1="12.14" x2="44.196" y2="16.383" width="0" layer="19" extent="1-1"/>
+<wire x1="39.92" y1="13.081" x2="42.657" y2="12.14" width="0" layer="19" extent="1-1"/>
+<wire x1="39.116" y1="16.383" x2="39.92" y2="13.081" width="0" layer="19" extent="1-1"/>
 <wire x1="36.026" y1="13.081" x2="39.92" y2="13.081" width="0" layer="19" extent="1-1"/>
 <wire x1="32.766" y1="11.95" x2="36.026" y2="13.081" width="0" layer="19" extent="1-16"/>
 <wire x1="29.591" y1="9.98" x2="32.766" y2="11.95" width="0" layer="19" extent="16-16"/>
-<wire x1="24.966" y1="12.954" x2="29.591" y2="9.98" width="0" layer="19" extent="16-16"/>
-<wire x1="24.7054" y1="10.795" x2="24.966" y2="12.954" width="0" layer="19" extent="1-16"/>
+<wire x1="24.7054" y1="10.795" x2="29.591" y2="9.98" width="0" layer="19" extent="1-16"/>
+<wire x1="24.966" y1="12.954" x2="24.7054" y2="10.795" width="0" layer="19" extent="1-16"/>
 <wire x1="21.776" y1="11.14" x2="24.7054" y2="10.795" width="0" layer="19" extent="1-1"/>
 <wire x1="18.246" y1="9.398" x2="21.776" y2="11.14" width="0" layer="19" extent="1-16"/>
 <wire x1="16.2306" y1="8.6526" x2="18.246" y2="9.398" width="0" layer="19" extent="16-16"/>
@@ -1235,14 +1188,19 @@ DS1340U-33+T&amp;R
 <wire x1="9.2456" y1="7.4764" x2="10.7696" y2="8.5764" width="0" layer="19" extent="1-1"/>
 <wire x1="6.1556" y1="7.1628" x2="9.2456" y2="7.4764" width="0" layer="19" extent="1-1"/>
 <wire x1="17.776" y1="13.14" x2="18.246" y2="9.398" width="0" layer="19" extent="1-16"/>
-<wire x1="42.657" y1="5.64" x2="44.323" y2="1.143" width="0" layer="19" extent="1-1"/>
-<wire x1="39.4335" y1="7.69" x2="42.657" y2="5.64" width="0" layer="19" extent="1-1"/>
+<wire x1="39.4335" y1="7.69" x2="39.92" y2="13.081" width="0" layer="19" extent="1-1"/>
 <wire x1="38.947" y1="6.096" x2="39.4335" y2="7.69" width="0" layer="19" extent="1-1"/>
 <wire x1="38.747" y1="4.699" x2="38.947" y2="6.096" width="0" layer="19" extent="1-1"/>
+<wire x1="42.657" y1="5.64" x2="38.947" y2="6.096" width="0" layer="19" extent="1-1"/>
+<wire x1="44.323" y1="1.143" x2="42.657" y2="5.64" width="0" layer="19" extent="1-1"/>
+<wire x1="49.403" y1="1.143" x2="44.323" y2="1.143" width="0" layer="19" extent="1-1"/>
 <wire x1="6.1556" y1="14.0716" x2="6.1556" y2="7.1628" width="0" layer="19" extent="1-1"/>
+<wire x1="37.905" y1="23.96" x2="39.116" y2="16.383" width="0" layer="19" extent="1-1"/>
+<wire x1="32.004" y1="25.527" x2="37.905" y2="23.96" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="25.527" x2="32.004" y2="25.527" width="0" layer="19" extent="1-1"/>
+<wire x1="28.194" y1="25.527" x2="29.464" y2="25.527" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.213" y1="-3.429" x2="6.1556" y2="7.1628" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.97" y1="-8.001" x2="-8.213" y2="-3.429" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.207" y1="-12.192" x2="-8.97" y2="-8.001" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.89" y1="-6.985" x2="-8.213" y2="-3.429" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDCORE">
 <contactref element="U1" pad="43"/>
@@ -1272,21 +1230,21 @@ DS1340U-33+T&amp;R
 <contactref element="J5" pad="P$4"/>
 <contactref element="J6" pad="P$2"/>
 <contactref element="U4" pad="P$5"/>
-<contactref element="TC1" pad="P$1"/>
-<wire x1="29.591" y1="12.88" x2="26.924" y2="25.527" width="0" layer="19" extent="16-16"/>
-<wire x1="32.766" y1="13.45" x2="29.591" y2="12.88" width="0" layer="19" extent="16-16"/>
+<wire x1="41.656" y1="16.383" x2="46.736" y2="16.383" width="0" layer="19" extent="1-1"/>
+<wire x1="32.766" y1="13.45" x2="41.656" y2="16.383" width="0" layer="19" extent="16-16"/>
+<wire x1="29.591" y1="12.88" x2="32.766" y2="13.45" width="0" layer="19" extent="16-16"/>
 <wire x1="23.6054" y1="10.795" x2="29.591" y2="12.88" width="0" layer="19" extent="1-16"/>
 <wire x1="21.776" y1="11.64" x2="23.6054" y2="10.795" width="0" layer="19" extent="1-1"/>
-<wire x1="19.346" y1="9.398" x2="21.776" y2="11.64" width="0" layer="19" extent="1-16"/>
-<wire x1="20.066" y1="8.8226" x2="19.346" y2="9.398" width="0" layer="19" extent="16-16"/>
+<wire x1="20.066" y1="8.8226" x2="21.776" y2="11.64" width="0" layer="19" extent="1-16"/>
+<wire x1="19.346" y1="9.398" x2="20.066" y2="8.8226" width="0" layer="19" extent="16-16"/>
 <wire x1="18.6436" y1="5.7746" x2="20.066" y2="8.8226" width="0" layer="19" extent="16-16"/>
 <wire x1="16.776" y1="4.64" x2="18.6436" y2="5.7746" width="0" layer="19" extent="1-16"/>
 <wire x1="16.776" y1="13.14" x2="19.346" y2="9.398" width="0" layer="19" extent="1-16"/>
 <wire x1="13.276" y1="9.14" x2="16.776" y2="13.14" width="0" layer="19" extent="1-1"/>
 <wire x1="10.7696" y1="7.4764" x2="13.276" y2="9.14" width="0" layer="19" extent="1-1"/>
-<wire x1="41.656" y1="16.383" x2="32.766" y2="13.45" width="0" layer="19" extent="16-16"/>
-<wire x1="-6.27" y1="-7.051" x2="10.7696" y2="7.4764" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.207" y1="-13.462" x2="-6.27" y2="-7.051" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="25.527" x2="29.591" y2="12.88" width="0" layer="19" extent="16-16"/>
+<wire x1="46.863" y1="1.143" x2="46.736" y2="16.383" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.19" y1="-6.035" x2="10.7696" y2="7.4764" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XIN32">
 <contactref element="U1" pad="1"/>
@@ -1307,11 +1265,9 @@ DS1340U-33+T&amp;R
 <contactref element="SW1" pad="P$1"/>
 <contactref element="J2" pad="10"/>
 <contactref element="R3" pad="P$1"/>
-<contactref element="TC1" pad="P$6"/>
 <wire x1="32.004" y1="26.797" x2="35.755" y2="23.96" width="0" layer="19" extent="1-1"/>
 <wire x1="20.066" y1="9.9226" x2="32.004" y2="26.797" width="0" layer="19" extent="16-16"/>
 <wire x1="20.4216" y1="7.7636" x2="20.066" y2="9.9226" width="0" layer="19" extent="16-16"/>
-<wire x1="-2.667" y1="-12.192" x2="20.4216" y2="7.7636" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="D-">
 <contactref element="U2" pad="3"/>
@@ -1348,8 +1304,8 @@ DS1340U-33+T&amp;R
 <wire x1="39.4335" y1="10.09" x2="38.62" y2="11.684" width="0" layer="19" extent="1-1"/>
 <wire x1="36.576" y1="16.383" x2="37.126" y2="13.081" width="0" layer="19" extent="1-1"/>
 <wire x1="27.866" y1="12.954" x2="37.126" y2="13.081" width="0" layer="19" extent="1-16"/>
-<wire x1="-8.97" y1="-7.051" x2="27.866" y2="12.954" width="0" layer="19" extent="1-16"/>
-<wire x1="-8.97" y1="-8.951" x2="-8.97" y2="-7.051" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.89" y1="-6.035" x2="27.866" y2="12.954" width="0" layer="19" extent="1-16"/>
+<wire x1="-3.89" y1="-7.935" x2="-3.89" y2="-6.035" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DP">
 <contactref element="U1" pad="34"/>
@@ -1524,16 +1480,12 @@ DS1340U-33+T&amp;R
 <signal name="SWDIO">
 <contactref element="J2" pad="2"/>
 <contactref element="U1" pad="46"/>
-<contactref element="TC1" pad="P$3"/>
 <wire x1="15.776" y1="13.14" x2="26.924" y2="26.797" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.937" y1="-13.462" x2="15.776" y2="13.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="J2" pad="4"/>
 <contactref element="U1" pad="45"/>
-<contactref element="TC1" pad="P$4"/>
 <wire x1="16.276" y1="13.14" x2="28.194" y2="26.797" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.937" y1="-12.192" x2="16.276" y2="13.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESETLIN">
 <contactref element="U1" pad="40"/>
@@ -1568,9 +1520,6 @@ DS1340U-33+T&amp;R
 <contactref element="J7" pad="B5"/>
 <contactref element="R4" pad="P$1"/>
 <wire x1="-9.313" y1="-3.429" x2="42.657" y2="10.64" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SWO">
-<contactref element="TC1" pad="P$5"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

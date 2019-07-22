@@ -2002,95 +2002,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </polygon>
 <text x="6.35" y="-1.27" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL06</text>
 </package>
-<package name="PTH_2.54MM_02X03">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for 2.54MM Pitch Header 2 Row 6 Position. Based on 4UCON 00989.&lt;br&gt;</description>
-<pad name="P$1" x="-2.54" y="-1.27" drill="1"/>
-<wire x1="-3.79" y1="2.52" x2="3.79" y2="2.52" width="0.127" layer="21"/>
-<wire x1="3.79" y1="2.52" x2="3.79" y2="-2.52" width="0.127" layer="21"/>
-<wire x1="3.79" y1="-2.52" x2="-3.79" y2="-2.52" width="0.127" layer="21"/>
-<wire x1="-3.79" y1="-2.52" x2="-3.79" y2="2.52" width="0.127" layer="21"/>
-<text x="-5.056" y="-2.52" size="1.016" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
-<pad name="P$2" x="-2.54" y="1.27" drill="1"/>
-<pad name="P$3" x="0" y="-1.27" drill="1"/>
-<text x="-2.54" y="2.794" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL02</text>
-<text x="-2.54" y="-2.794" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
-<polygon width="0.127" layer="21">
-<vertex x="-4.445" y="-3.175"/>
-<vertex x="-3.81" y="-3.175"/>
-<vertex x="-3.175" y="-2.54"/>
-<vertex x="-3.81" y="-1.905"/>
-<vertex x="-4.445" y="-2.54"/>
-</polygon>
-<pad name="P$4" x="0" y="1.27" drill="1"/>
-<pad name="P$5" x="2.54" y="-1.27" drill="1"/>
-<pad name="P$6" x="2.54" y="1.27" drill="1"/>
-<text x="0" y="-2.794" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL03</text>
-<text x="0" y="2.794" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL04</text>
-<text x="2.54" y="-2.794" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL05</text>
-<text x="2.54" y="2.794" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-right">&gt;LABEL06</text>
-</package>
-<package name="TC2030-IDC-FP">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for Tag Connect TC2030-FP style&lt;br&gt;
-&lt;b&gt;MacroFab House Part:&lt;/b&gt; No &lt;br&gt;
-&lt;b&gt;URL:&lt;/b&gt; http://www.tag-connect.com/TC2030-IDC&lt;br&gt;</description>
-<smd name="P$1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<hole x="2.54" y="1.016" drill="0.9906"/>
-<hole x="2.54" y="-1.016" drill="0.9906"/>
-<hole x="-2.54" y="0" drill="0.9906"/>
-<wire x1="3.683" y1="-3.048" x2="-3.683" y2="-3.048" width="0.127" layer="21"/>
-<wire x1="-3.683" y1="-3.048" x2="-4.953" y2="-1.778" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4.953" y1="-1.778" x2="-4.953" y2="1.778" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="1.778" x2="-3.683" y2="3.048" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.683" y1="3.048" x2="3.683" y2="3.048" width="0.127" layer="21"/>
-<wire x1="3.683" y1="3.048" x2="4.953" y2="1.778" width="0.127" layer="21" curve="-90"/>
-<wire x1="4.953" y1="1.778" x2="4.953" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="4.953" y1="-1.778" x2="3.683" y2="-3.048" width="0.127" layer="21" curve="-90"/>
-<text x="-1.27" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL01</text>
-<text x="-1.27" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
-<text x="0" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
-<text x="0" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
-<text x="1.27" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
-<text x="1.27" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
-<text x="-5.715" y="0" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center">&gt;NAME</text>
-<hole x="-2.54" y="2.54" drill="2.375"/>
-<hole x="0.635" y="2.54" drill="2.375"/>
-<hole x="0.635" y="-2.54" drill="2.375"/>
-<hole x="-2.54" y="-2.54" drill="2.375"/>
-</package>
-<package name="TC2030-IDC-NL">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for Tag Connect TC2030-NL style&lt;br&gt;
-&lt;b&gt;MacroFab House Part:&lt;/b&gt; No &lt;br&gt;
-&lt;b&gt;URL:&lt;/b&gt; http://www.tag-connect.com/TC2030-IDC-NL&lt;br&gt;</description>
-<smd name="P$1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<smd name="P$6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
-<hole x="2.54" y="1.016" drill="0.9906"/>
-<hole x="2.54" y="-1.016" drill="0.9906"/>
-<hole x="-2.54" y="0" drill="0.9906"/>
-<wire x1="3.683" y1="-3.048" x2="-3.683" y2="-3.048" width="0.127" layer="21"/>
-<wire x1="-3.683" y1="-3.048" x2="-4.953" y2="-1.778" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4.953" y1="-1.778" x2="-4.953" y2="1.778" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="1.778" x2="-3.683" y2="3.048" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.683" y1="3.048" x2="3.683" y2="3.048" width="0.127" layer="21"/>
-<wire x1="3.683" y1="3.048" x2="4.953" y2="1.778" width="0.127" layer="21" curve="-90"/>
-<wire x1="4.953" y1="1.778" x2="4.953" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="4.953" y1="-1.778" x2="3.683" y2="-3.048" width="0.127" layer="21" curve="-90"/>
-<text x="-1.27" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL01</text>
-<text x="-1.27" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
-<text x="0" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
-<text x="0" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
-<text x="1.27" y="-3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
-<text x="1.27" y="3.81" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
-<text x="-5.715" y="0" size="1.016" layer="25" font="vector" ratio="16" rot="R90" align="center">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="CON_01X14">
@@ -2170,33 +2081,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <text x="0.508" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">PIN03</text>
 <text x="0.508" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">PIN04</text>
 <text x="0.508" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">PIN05</text>
-</symbol>
-<symbol name="CON_02X03">
-<description>&lt;b&gt;Description:&lt;/b&gt; Symbol for Connector 6 Position 2 Row.&lt;br&gt;</description>
-<pin name="PIN1" x="-2.54" y="0" visible="off" length="short"/>
-<text x="7.62" y="0" size="1.016" layer="97" font="vector" rot="MR180" align="center-left">&gt;LABEL01</text>
-<wire x1="0" y1="-6.35" x2="30.48" y2="-6.35" width="0.127" layer="94"/>
-<pin name="PIN6" x="33.02" y="-5.08" visible="off" length="short" rot="R180"/>
-<wire x1="0" y1="1.27" x2="0" y2="-6.35" width="0.127" layer="94"/>
-<wire x1="30.48" y1="-6.35" x2="30.48" y2="1.27" width="0.127" layer="94"/>
-<wire x1="30.48" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
-<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
-<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
-<pin name="PIN2" x="33.02" y="0" visible="off" length="short" rot="R180"/>
-<text x="22.86" y="0" size="1.016" layer="97" font="vector" rot="MR0" align="center-left">&gt;LABEL02</text>
-<text x="0.508" y="0" size="1.016" layer="97" font="vector" rot="MR180" align="center-left">PIN01</text>
-<text x="29.972" y="0" size="1.016" layer="97" font="vector" rot="MR0" align="center-left">PIN02</text>
-<pin name="PIN3" x="-2.54" y="-2.54" visible="off" length="short"/>
-<text x="7.62" y="-2.54" size="1.016" layer="97" font="vector" rot="MR180" align="center-left">&gt;LABEL03</text>
-<text x="0.508" y="-2.54" size="1.016" layer="97" font="vector" rot="MR0" align="center-right">PIN03</text>
-<pin name="PIN4" x="33.02" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="PIN5" x="-2.54" y="-5.08" visible="off" length="short"/>
-<text x="0.508" y="-5.08" size="1.016" layer="97" font="vector" rot="MR0" align="center-right">PIN05</text>
-<text x="22.86" y="-2.54" size="1.016" layer="97" font="vector" rot="MR0" align="center-left">&gt;LABEL04</text>
-<text x="7.62" y="-5.08" size="1.016" layer="97" font="vector" rot="MR180" align="center-left">&gt;LABEL05</text>
-<text x="29.972" y="-2.54" size="1.016" layer="97" font="vector" rot="MR180" align="center-right">PIN04</text>
-<text x="29.972" y="-5.08" size="1.016" layer="97" font="vector" rot="MR180" align="center-right">PIN06</text>
-<text x="22.86" y="-5.08" size="1.016" layer="97" font="vector" rot="MR0" align="center-left">&gt;LABEL06</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2279,220 +2163,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="POPULATE" value="1" constant="no"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-CON-2.54mm-01x06" constant="no"/>
 <attribute name="VALUE" value="MF-CON-2.54mm-01x06" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CON_02X03" prefix="TC">
-<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Connectors&lt;br/&gt;
-&lt;b&gt;Description:&lt;/b&gt; Header Connector with 6 Positions and 02 Rows. Use the LABEL Attribute to label the pin on the schematic and PCB. You can remove the attributes on the PCB by using the SMASH function on the part and then deleting the text.&lt;br/&gt;</description>
-<gates>
-<gate name="G$1" symbol="CON_02X03" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_PTH_2.54MM" package="PTH_2.54MM_02X03">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="P$1"/>
-<connect gate="G$1" pin="PIN2" pad="P$2"/>
-<connect gate="G$1" pin="PIN3" pad="P$3"/>
-<connect gate="G$1" pin="PIN4" pad="P$4"/>
-<connect gate="G$1" pin="PIN5" pad="P$5"/>
-<connect gate="G$1" pin="PIN6" pad="P$6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="HOUSEPART" value="YES" constant="no"/>
-<attribute name="LABEL01" value="" constant="no"/>
-<attribute name="LABEL02" value="" constant="no"/>
-<attribute name="LABEL03" value="" constant="no"/>
-<attribute name="LABEL04" value="" constant="no"/>
-<attribute name="LABEL05" value="" constant="no"/>
-<attribute name="LABEL06" value="" constant="no"/>
-<attribute name="MPN" value="MF-CON-2.54mm-2x3" constant="no"/>
-<attribute name="POPULATE" value="1" constant="no"/>
-<attribute name="URL" value="https://factory.macrofab.com/part/MF-CON-2.54mm-2x3 " constant="no"/>
-<attribute name="VALUE" value="MF-CON-2.54mm-2x3" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TC2030-IDC" package="TC2030-IDC-FP">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="P$1"/>
-<connect gate="G$1" pin="PIN2" pad="P$2"/>
-<connect gate="G$1" pin="PIN3" pad="P$3"/>
-<connect gate="G$1" pin="PIN4" pad="P$4"/>
-<connect gate="G$1" pin="PIN5" pad="P$5"/>
-<connect gate="G$1" pin="PIN6" pad="P$6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="" constant="no"/>
-<attribute name="LABEL02" value="" constant="no"/>
-<attribute name="LABEL03" value="" constant="no"/>
-<attribute name="LABEL04" value="" constant="no"/>
-<attribute name="LABEL05" value="" constant="no"/>
-<attribute name="LABEL06" value="" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC" constant="no"/>
-</technology>
-<technology name="_AVRISP">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="MISO" constant="no"/>
-<attribute name="LABEL02" value="VCC" constant="no"/>
-<attribute name="LABEL03" value="SCK" constant="no"/>
-<attribute name="LABEL04" value="MOSI" constant="no"/>
-<attribute name="LABEL05" value="RST" constant="no"/>
-<attribute name="LABEL06" value="GND" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/AVRISP" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC" constant="no"/>
-</technology>
-<technology name="_FTDI-TTL-232R">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="VCC" constant="no"/>
-<attribute name="LABEL02" value="CTS/TMS" constant="no"/>
-<attribute name="LABEL03" value="RX/TDI" constant="no"/>
-<attribute name="LABEL04" value="TX/TCLK" constant="no"/>
-<attribute name="LABEL05" value="GND" constant="no"/>
-<attribute name="LABEL06" value="RTS/TDO" constant="no"/>
-<attribute name="MPN" value="TC2030-FTDI-TTL-232R " constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-FTDI" constant="no"/>
-<attribute name="VALUE" value="TC2030-FTDI-TTL-232R " constant="no"/>
-</technology>
-<technology name="_PICKIT">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="!MCLR" constant="no"/>
-<attribute name="LABEL02" value="VDD Target" constant="no"/>
-<attribute name="LABEL03" value="GND" constant="no"/>
-<attribute name="LABEL04" value="PGD" constant="no"/>
-<attribute name="LABEL05" value="PGC" constant="no"/>
-<attribute name="LABEL06" value="PGM" constant="no"/>
-<attribute name="MPN" value="TC2030-PKT" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-PKT" constant="no"/>
-<attribute name="VALUE" value="TC2030-PKT" constant="no"/>
-</technology>
-<technology name="_SILABS2TC">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="GND" constant="no"/>
-<attribute name="LABEL02" value="VCC" constant="no"/>
-<attribute name="LABEL03" value="C2CK" constant="no"/>
-<attribute name="LABEL04" value="C2D" constant="no"/>
-<attribute name="LABEL05" value="C2CK_PS" constant="no"/>
-<attribute name="LABEL06" value="C2D_PS" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC" constant="no"/>
-</technology>
-<technology name="_SWD2TC">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="VCC" constant="no"/>
-<attribute name="LABEL02" value="GND" constant="no"/>
-<attribute name="LABEL03" value="SWDIO" constant="no"/>
-<attribute name="LABEL04" value="SWCLK" constant="no"/>
-<attribute name="LABEL05" value="MCU_VDD" constant="no"/>
-<attribute name="LABEL06" value="!RST" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TC2030-IDC-NL" package="TC2030-IDC-NL">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="P$1"/>
-<connect gate="G$1" pin="PIN2" pad="P$2"/>
-<connect gate="G$1" pin="PIN3" pad="P$3"/>
-<connect gate="G$1" pin="PIN4" pad="P$4"/>
-<connect gate="G$1" pin="PIN5" pad="P$5"/>
-<connect gate="G$1" pin="PIN6" pad="P$6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="" constant="no"/>
-<attribute name="LABEL02" value="" constant="no"/>
-<attribute name="LABEL03" value="" constant="no"/>
-<attribute name="LABEL04" value="" constant="no"/>
-<attribute name="LABEL05" value="" constant="no"/>
-<attribute name="LABEL06" value="" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC-NL" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC-NL" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC-NL" constant="no"/>
-</technology>
-<technology name="_AVRISP">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="MISO" constant="no"/>
-<attribute name="LABEL02" value="VCC" constant="no"/>
-<attribute name="LABEL03" value="SCK" constant="no"/>
-<attribute name="LABEL04" value="MOSI" constant="no"/>
-<attribute name="LABEL05" value="RST" constant="no"/>
-<attribute name="LABEL06" value="GND" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC-NL" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/AVRISP" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC-NL" constant="no"/>
-</technology>
-<technology name="_FTDI-TTL-232R">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="VCC" constant="no"/>
-<attribute name="LABEL02" value="CTS/TMS " constant="no"/>
-<attribute name="LABEL03" value="RX/TDI " constant="no"/>
-<attribute name="LABEL04" value="TX/TCLK " constant="no"/>
-<attribute name="LABEL05" value="GND" constant="no"/>
-<attribute name="LABEL06" value="RTS/TDO " constant="no"/>
-<attribute name="MPN" value="TC2030-FTDI-TTL-232R-NL " constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-FTDI" constant="no"/>
-<attribute name="VALUE" value="TC2030-FTDI-TTL-232R-NL " constant="no"/>
-</technology>
-<technology name="_PICKIT">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="!MCLR" constant="no"/>
-<attribute name="LABEL02" value="VDD Target " constant="no"/>
-<attribute name="LABEL03" value="GND" constant="no"/>
-<attribute name="LABEL04" value="PGD" constant="no"/>
-<attribute name="LABEL05" value="PGC" constant="no"/>
-<attribute name="LABEL06" value="PGM" constant="no"/>
-<attribute name="MPN" value="TC2030-PKT-NL " constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-PKT-NL" constant="no"/>
-<attribute name="VALUE" value="TC2030-PKT-NL " constant="no"/>
-</technology>
-<technology name="_SILABS2TC">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="GND" constant="no"/>
-<attribute name="LABEL02" value="VCC" constant="no"/>
-<attribute name="LABEL03" value="C2CK" constant="no"/>
-<attribute name="LABEL04" value="C2D" constant="no"/>
-<attribute name="LABEL05" value="C2CK_PS" constant="no"/>
-<attribute name="LABEL06" value="C2D_PS" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC-NL" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC-NL" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC-NL" constant="no"/>
-</technology>
-<technology name="_SWD2TC">
-<attribute name="HOUSEPART" value="NO" constant="no"/>
-<attribute name="LABEL01" value="VCC" constant="no"/>
-<attribute name="LABEL02" value="GND" constant="no"/>
-<attribute name="LABEL03" value="SWDIO" constant="no"/>
-<attribute name="LABEL04" value="SWCLK" constant="no"/>
-<attribute name="LABEL05" value="MCU_VDD" constant="no"/>
-<attribute name="LABEL06" value="!RST" constant="no"/>
-<attribute name="MPN" value="TC2030-IDC-NL" constant="no"/>
-<attribute name="POPULATE" value="0" constant="no"/>
-<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC-NL" constant="no"/>
-<attribute name="VALUE" value="TC2030-IDC-NL" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3565,18 +3235,17 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="R4" library="MF_Passives" deviceset="RESISTOR" device="_0402" value="5.1K">
 <attribute name="MPN" value="ERJ-3EKF5101V"/>
 </part>
-<part name="U4" library="MF_IC_Power" deviceset="TLV702" device="33PDBVR" value="MF-REG-SOT235-3.3V-300mA"/>
-<part name="TC1" library="MF_Connectors" deviceset="CON_02X03" device="_TC2030-IDC-NL" technology="_SWD2TC" value="TC2030-IDC-NL"/>
-<part name="U$29" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="3.3V"/>
-<part name="U$30" library="MF_Aesthetics" deviceset="GND_RAIL" device=""/>
+<part name="U4" library="MF_IC_Power" deviceset="TLV702" device="33PDBVR" value="LDK320AM33R">
+<attribute name="HOUSEPART" value="No"/>
+<attribute name="MPN" value="LDK320AM33R"/>
+<attribute name="URL" value=""/>
+</part>
 <part name="U3" library="PP_PowerIC" deviceset="BQ24165" device="RGET"/>
 <part name="X1" library="PP_FreqCtrl" deviceset="CRYSTAL" device="_FC-12M" value="FC-12M 32.7680KA-A3">
 <attribute name="MPN" value="FC-12M 32.7680KA-A3 "/>
 </part>
 <part name="U5" library="PP_DigitalIC" deviceset="DS1340Z" device="U-33+" value="DS1340U-33+T&amp;R">
-<attribute name="MPN" value="
-DS1340U-33+T&amp;R
-"/>
+<attribute name="MPN" value=" DS1340U-33+T&amp;R "/>
 </part>
 <part name="BATT1" library="PP_Connectors" deviceset="BATTERY" device="_KEYSTONE_1074"/>
 </parts>
@@ -3818,22 +3487,6 @@ DS1340U-33+T&amp;R
 <attribute name="NAME" x="123.19" y="22.86" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="123.19" y="20.32" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="TC1" gate="G$1" x="115.57" y="118.11" smashed="yes">
-<attribute name="LABEL01" x="123.19" y="118.11" size="1.016" layer="97" font="vector" rot="MR180" align="center-left"/>
-<attribute name="NAME" x="115.57" y="123.19" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="115.57" y="120.65" size="1.016" layer="96" font="vector"/>
-<attribute name="LABEL02" x="138.43" y="118.11" size="1.016" layer="97" font="vector" rot="MR0" align="center-left"/>
-<attribute name="LABEL03" x="123.19" y="115.57" size="1.016" layer="97" font="vector" rot="MR180" align="center-left"/>
-<attribute name="LABEL04" x="138.43" y="115.57" size="1.016" layer="97" font="vector" rot="MR0" align="center-left"/>
-<attribute name="LABEL05" x="123.19" y="113.03" size="1.016" layer="97" font="vector" rot="MR180" align="center-left"/>
-<attribute name="LABEL06" x="138.43" y="113.03" size="1.016" layer="97" font="vector" rot="MR0" align="center-left"/>
-</instance>
-<instance part="U$29" gate="G$1" x="104.14" y="123.19" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="104.14" y="125.73" size="1.016" layer="96" font="vector" rot="MR0" align="center"/>
-</instance>
-<instance part="U$30" gate="G$1" x="160.02" y="106.68" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="160.02" y="104.14" size="1.016" layer="96" font="vector" rot="MR180" align="center"/>
-</instance>
 <instance part="U3" gate="G$1" x="-81.28" y="58.42" smashed="yes">
 <attribute name="NAME" x="-81.28" y="63.5" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="-81.28" y="60.96" size="1.016" layer="96" font="vector"/>
@@ -4001,12 +3654,6 @@ DS1340U-33+T&amp;R
 <wire x1="208.28" y1="11.43" x2="212.09" y2="11.43" width="0.1524" layer="91"/>
 <label x="208.28" y="11.43" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="TC1" gate="G$1" pin="PIN2"/>
-<pinref part="U$30" gate="G$1" pin="P$1"/>
-<wire x1="148.59" y1="118.11" x2="160.02" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="118.11" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="VDDCORE" class="0">
 <segment>
@@ -4094,12 +3741,6 @@ DS1340U-33+T&amp;R
 <wire x1="208.28" y1="13.97" x2="212.09" y2="13.97" width="0.1524" layer="91"/>
 <label x="208.28" y="13.97" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="TC1" gate="G$1" pin="PIN1"/>
-<pinref part="U$29" gate="G$1" pin="P$1"/>
-<wire x1="113.03" y1="118.11" x2="104.14" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="118.11" x2="104.14" y2="120.65" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="XIN32" class="0">
 <segment>
@@ -4146,11 +3787,6 @@ DS1340U-33+T&amp;R
 <pinref part="R3" gate="G$1" pin="P$1"/>
 <wire x1="-5.08" y1="76.2" x2="-8.89" y2="76.2" width="0.1524" layer="91"/>
 <label x="-8.89" y="76.2" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TC1" gate="G$1" pin="PIN6"/>
-<wire x1="148.59" y1="113.03" x2="151.13" y2="113.03" width="0.1524" layer="91"/>
-<label x="151.13" y="113.03" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -4637,11 +4273,6 @@ DS1340U-33+T&amp;R
 <wire x1="66.04" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <label x="66.04" y="43.18" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-<segment>
-<pinref part="TC1" gate="G$1" pin="PIN3"/>
-<wire x1="113.03" y1="115.57" x2="110.49" y2="115.57" width="0.1524" layer="91"/>
-<label x="110.49" y="115.57" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
@@ -4653,11 +4284,6 @@ DS1340U-33+T&amp;R
 <pinref part="U1" gate="G$1" pin="PA30/EIC/SCOM1PAD2/TC1"/>
 <wire x1="55.88" y1="45.72" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
 <label x="66.04" y="45.72" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TC1" gate="G$1" pin="PIN4"/>
-<wire x1="148.59" y1="115.57" x2="151.13" y2="115.57" width="0.1524" layer="91"/>
-<label x="151.13" y="115.57" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="RESETLIN" class="0">
@@ -4692,13 +4318,6 @@ DS1340U-33+T&amp;R
 <pinref part="J7" gate="G$1" pin="CC2"/>
 <pinref part="R4" gate="G$1" pin="P$1"/>
 <wire x1="-110.49" y1="107.95" x2="-102.87" y2="107.95" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SWO" class="0">
-<segment>
-<pinref part="TC1" gate="G$1" pin="PIN5"/>
-<wire x1="113.03" y1="113.03" x2="110.49" y2="113.03" width="0.1524" layer="91"/>
-<label x="110.49" y="113.03" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
